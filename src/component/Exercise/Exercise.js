@@ -42,7 +42,7 @@ const Exercise = () => {
             10 <span>s</span>
           </p>
           <p>
-            20 <span>s</span>
+            20 <span> s</span>
           </p>
           <p>
             30 <span>s</span>
