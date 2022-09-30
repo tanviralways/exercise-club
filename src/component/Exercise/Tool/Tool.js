@@ -7,7 +7,7 @@ const Tool = (props) => {
   return (
     <div className="tool">
       <img src={img} alt=""></img>
-      <div>
+      <div className="tool-info">
         <h2>{name}</h2>
         <p>
           <small>{details}</small>
@@ -15,6 +15,7 @@ const Tool = (props) => {
         <h4>For Age: {age}</h4>
         <h4>Time required: {time}</h4>
       </div>
+      <button className="btn-list">Add to List</button>
     </div>
   );
 };
