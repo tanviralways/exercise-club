@@ -1,25 +1,35 @@
 import React, { useEffect, useState } from "react";
 import "./Exercise.css";
-import Tool from "./Tool/Tool";
+import Tool from "../Tool/Tool";
+
 const Exercise = () => {
   const [tools, setTools] = useState([]);
+
   useEffect(() => {
     fetch("tools.json")
       .then((res) => res.json())
       .then((data) => setTools(data));
   }, []);
+
+  const handleAddToList = (tool) => {
+    console.log(tool);
+  };
   return (
     <div className="exercise-container">
       <div className="tools-container">
         {tools.map((tool) => (
-          <Tool key={tool.id} tool={tool}></Tool>
+          <Tool
+            key={tool.id}
+            tool={tool}
+            handleAddToList={handleAddToList}
+          ></Tool>
         ))}
       </div>
       <div className="profile-wrapper">
         <h3>Tanvir Ahmed</h3>
         <p>Dhaka, Bangladesh</p>
-        <h1>Add A Break</h1>
-        <div className="break-time">
+        <h2>Add A Break</h2>
+        <div className="break-sedule">
           <p>
             10 <span>s</span>
           </p>
@@ -33,6 +43,20 @@ const Exercise = () => {
             40 <span>s</span>
           </p>
         </div>
+        <h2>Exercise Details</h2>
+        <div className="exercise-time">
+          <p>Exercise time</p>
+          <p>
+            0<small>Seconds</small>
+          </p>
+        </div>
+        <div className="break-time">
+          <p>Break time</p>
+          <p>
+            0<small>Seconds</small>
+          </p>
+        </div>
+        <button className="activity-btn">Activity Completed</button>
       </div>
     </div>
   );

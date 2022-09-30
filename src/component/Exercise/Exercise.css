@@ -8,12 +8,52 @@
   gap: 30px;
   margin-top: 40px;
 }
-.break-time {
+.profile-wrapper h3,
+p {
+  text-align: center;
+}
+.break-sedule {
   display: flex;
   justify-content: space-between;
 }
-.break-time p {
+.break-sedule p {
   border: 1px solid gray;
   border-radius: 5px;
-  padding: 2px;
+}
+.exercise-time {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid gray;
+  margin-bottom: 15px;
+}
+.break-time {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid gray;
+  margin-bottom: 15px;
+}
+.activity-btn {
+  width: 80%;
+  color: black;
+  background-color: rgb(3, 200, 200);
+  margin-left: 18px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.activity-btn:hover {
+  background-color: rgb(162, 238, 238);
+}
+
+/* responsive Media Quaries */
+
+/* For mobile view */
+@media only screen and (max-width: 688px) {
+  .tools-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .exercise-container {
+    grid-template-columns: 2fr 1fr;
+  }
 }
