@@ -8,3 +8,12 @@
   gap: 30px;
   margin-top: 40px;
 }
+.break-time {
+  display: flex;
+  justify-content: space-between;
+}
+.break-time p {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 2px;
+}

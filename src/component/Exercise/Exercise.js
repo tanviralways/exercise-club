@@ -16,7 +16,23 @@ const Exercise = () => {
         ))}
       </div>
       <div className="profile-wrapper">
-        <h3>This is for person</h3>
+        <h3>Tanvir Ahmed</h3>
+        <p>Dhaka, Bangladesh</p>
+        <h1>Add A Break</h1>
+        <div className="break-time">
+          <p>
+            10 <span>s</span>
+          </p>
+          <p>
+            20 <span>s</span>
+          </p>
+          <p>
+            30 <span>s</span>
+          </p>
+          <p>
+            40 <span>s</span>
+          </p>
+        </div>
       </div>
     </div>
   );
