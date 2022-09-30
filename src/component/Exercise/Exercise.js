@@ -55,7 +55,7 @@ const Exercise = () => {
         <div className="exercise-time">
           <p>Exercise time</p>
           <p>
-            {total} {/* 0<small>Seconds</small> */}
+            {total} {<small>Seconds</small>}
           </p>
         </div>
         <div className="break-time">
