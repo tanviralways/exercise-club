@@ -61,7 +61,7 @@ const Exercise = () => {
         <div className="break-time">
           <p>Break time</p>
           <p>
-            0<small>Seconds</small>
+            <small>Seconds</small>
           </p>
         </div>
         <button className="activity-btn">Activity Completed</button>
