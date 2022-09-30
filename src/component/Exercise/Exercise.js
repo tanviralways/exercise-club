@@ -4,6 +4,7 @@ import Tool from "../Tool/Tool";
 
 const Exercise = () => {
   const [tools, setTools] = useState([]);
+  const [list, setList] = useState([]);
 
   useEffect(() => {
     fetch("tools.json")
@@ -13,7 +14,14 @@ const Exercise = () => {
 
   const handleAddToList = (tool) => {
     console.log(tool);
+    const newList = [...list, tool];
+    setList(newList);
   };
+
+  let total = 0;
+  for (const tool of list) {
+    total = total + parseFloat(tool.price);
+  }
   return (
     <div className="exercise-container">
       <div className="tools-container">
@@ -47,7 +55,7 @@ const Exercise = () => {
         <div className="exercise-time">
           <p>Exercise time</p>
           <p>
-            0<small>Seconds</small>
+            {total} {/* 0<small>Seconds</small> */}
           </p>
         </div>
         <div className="break-time">

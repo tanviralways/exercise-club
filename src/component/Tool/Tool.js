@@ -3,6 +3,11 @@ import "./Tool.css";
 
 const Tool = (props) => {
   const { img, name, details, age, time } = props.tool;
+  // let total = 0;
+  // for (const tool of list) {
+  //   total = total + tool.price;
+  // }
+
   return (
     <div className="tool">
       <img src={img} alt=""></img>

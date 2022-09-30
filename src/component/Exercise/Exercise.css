@@ -52,8 +52,9 @@ p {
 @media only screen and (max-width: 688px) {
   .tools-container {
     grid-template-columns: repeat(1, 1fr);
+    gap: 2px;
   }
   .exercise-container {
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
