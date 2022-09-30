@@ -1,0 +1,61 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+
+    "name": "Sit Up Benches",
+    "details": "It’s the best exercise for rock hard abs. A simple exercise for beginners for stronger abs and to strengthen your shoulder.",
+    "age": "15-20",
+    "time": 15,
+
+    "img": "https://cdn2.stylecraze.com/wp-content/uploads/2015/01/Sit-Up-Benches.jpg.webp"
+  },
+  {
+    "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+
+    "name": "Abs Swing",
+    "details": "It’s more effective and easy exercise for abs and the oblique muscles. It strengthens the core.",
+    "age": "15-20",
+    "time": 25,
+
+    "img": "https://cdn2.stylecraze.com/wp-content/uploads/2015/01/Abs-Swing.jpg.webp"
+  },
+  {
+    "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+
+    "name": " Captain’s Chair",
+    "details": "It strengthens oblique and helps your build stronger abs.",
+    "time": 20,
+
+    "img": "https://cdn2.stylecraze.com/wp-content/uploads/2015/01/Captain%E2%80%99s-Chair.jpg"
+  },
+  {
+    "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+
+    "name": "Ab Wheels",
+    "details": "It helps you get in better shape when included in daily workout plan. Strengthens lower body muscles for men.",
+    "age": "15-20",
+    "time": 10,
+
+    "img": "https://cdn2.stylecraze.com/wp-content/uploads/2015/01/Ab-Wheels.jpg.webp"
+  },
+  {
+    "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+
+    "name": " Rowing Machine",
+    "details": "Basically, push-ups are effective exercise for strengthening chest and arm muscles.",
+    "age": "15-20",
+    "time": 30,
+
+    "img": "https://cdn2.stylecraze.com/wp-content/uploads/2015/01/Rowing-Machine.jpg.webp"
+  },
+  {
+    "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+
+    "name": " Ab Chairs",
+    "details": "Basically, push-ups are effective exercise for strengthening chest and arm muscles.",
+    "age": "15-20",
+    "time": 35,
+
+    "img": "https://cdn2.stylecraze.com/wp-content/uploads/2015/01/Ab-Chairs.jpg.webp"
+  }
+]
