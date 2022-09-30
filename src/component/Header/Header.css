@@ -1,6 +1,10 @@
 .header {
+  margin-top: -20px;
   background-color: #151e21;
+  height: 80px;
 }
-.header h2 {
+.header h3 {
   color: aqua;
+  padding-left: 20px;
+  padding-top: 25px;
 }
